@@ -1,0 +1,71 @@
+/* Registration page styles */
+#registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6f7eebb;
+    text-align: center;
+}
+.custom-form-container h1{
+    font-size: 50px;
+}
+
+.custom-form-container {
+    width: 600px;
+    padding: 100px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.744);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-form-container input {
+    margin-top: 26px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+}
+
+.custom-form-container input[type='password'] {
+    font-family: inherit; 
+}
+
+#signup-button button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#signup-button button:hover {
+    background-color: #0056b3;
+}
+
+.custom-form-container button {
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.custom-form-container button:hover {
+    background-color: #e0e0e0;
+}
